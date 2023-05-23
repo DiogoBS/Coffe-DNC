@@ -1,0 +1,89 @@
+
+#Img-Final{
+    width: 50%;
+}
+
+#button{
+    border:none;
+}
+
+.buy-button {
+    display: none;
+    background-color: #2A3342;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card:hover .buy-button {
+    display: block;
+}
+
+.card .buy-button{
+position: absolute; 
+left: 50%;
+top: 98%; 
+transform: translate(-50%, -50%);
+}
+
+
+.modal- {
+display: none;
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgba(0, 0, 0, 0.4);
+}
+  
+.modal-content- {
+background-color: #fefefe;
+margin: 15% auto;
+padding: 20px;
+border: 1px solid #888;
+width: 100%;
+max-width: 600px;
+align-items: center;
+text-align: center;
+border-radius: 15px;
+}
+  
+.close- {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+cursor: pointer;
+}
+  
+.close-:hover,
+.close-:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+#btn-{
+    color: white;
+    background-color:#2A3342;
+    border: 0px;
+    border-radius: 10px;  
+    margin-top: 80px;
+}
+
+#modal- h2{
+    margin-bottom: 70px;
+} 
+
+.close-{
+    margin-left: 20px;
+    margin-right: 15px;
+}
